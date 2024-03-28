@@ -8,6 +8,10 @@ You can use this add-on to take advantage of the new "Custom Server" feature in 
 
 This add-on and integration combo are a work in progress. Any feedback and/or contributions are appreciated. Credit to [dancwilliams](https://github.com/dancwilliams) for the [initial add-on](https://github.com/dancwilliams/hassio-addons/tree/master/awnet) that this was forked from.
 
+## Changes by jruby411
+
+I added a couple of tweaks to what tlskinneriv has done. I orginally ran Home Assistant core in a docker container and had to configure and build this Add-on as a stand-alone container. You can find this earlier work on [gitlab](https://gitlab.com/jruby411/awnet). It was an eperiment in many ways. I decided to start over with my Home Assistant and I now run a supervised version on Debian 11 in a Proxmox VM. This is now my firt experience in to "hassio supervised" Add-ons.
+
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
 ![Supports armhf Architecture][armhf-shield]
